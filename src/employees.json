@@ -1,6 +1,6 @@
 [
     {
-      "name": "Employee 1",
+      "name": "Company 1",
       "tags": [
         "Graphic Design",
         "UI/UX",
@@ -9,7 +9,7 @@
       "flag": false
     },
     {
-      "name": "Employee 2",
+      "name": "Company 2",
       "tags": [
         "UI/UX",
         "3D Modeling",
@@ -18,7 +18,7 @@
       "flag": false
     },
     {
-      "name": "Employee 3",
+      "name": "Company 3",
       "tags": [
         "Motion Graphics",
         "Graphic Design",
@@ -27,7 +27,7 @@
       "flag": true
     },
     {
-      "name": "Employee 4",
+      "name": "Company 4",
       "tags": [
         "Photography",
         "Illustration",
@@ -36,7 +36,7 @@
       "flag": false
     },
     {
-      "name": "Employee 5",
+      "name": "Company 5",
       "tags": [
         "3D Modeling",
         "Graphic Design",
@@ -45,7 +45,7 @@
       "flag": false
     },
     {
-      "name": "Employee 6",
+      "name": "Company 6",
       "tags": [
         "Illustration",
         "UI/UX",
@@ -54,7 +54,7 @@
       "flag": false
     },
     {
-      "name": "Employee 7",
+      "name": "Company 7",
       "tags": [
         "Graphic Design",
         "Motion Graphics",
@@ -63,7 +63,7 @@
       "flag": false
     },
     {
-      "name": "Employee 8",
+      "name": "Company 8",
       "tags": [
         "Photography",
         "Illustration",

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import employees from "./employees.json";
+import "./Hiring.css"
 
 const creative_fields = [
   "Graphic Design",
@@ -8,7 +9,7 @@ const creative_fields = [
   "Illustration",
   "Photography",
   "Motion Graphics",
-  "UI/UX Design",
+  "UI/UX",
   "Web Design",
   "Packaging Design",
   "Editorial Design",
@@ -68,7 +69,7 @@ function Hiring() {
   const employeesWithTag = selectedTag ? getEmployeesWithTag(selectedTag) : employees;
 
   return (
-    <div>
+    <div className="hiring-container">
       <h1>Hiring</h1>
       <form>
         <label htmlFor="tags">Select a tag:</label>

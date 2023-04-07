@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Employee 1",
+      "tags": [
+        "Graphic Design",
+        "UI/UX",
+        "Illustration"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Employee 2",
+      "tags": [
+        "UI/UX",
+        "3D Modeling",
+        "Photography"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Employee 3",
+      "tags": [
+        "Motion Graphics",
+        "Graphic Design",
+        "UI/UX"
+      ],
+      "flag": true
+    },
+    {
+      "name": "Employee 4",
+      "tags": [
+        "Photography",
+        "Illustration",
+        "Motion Graphics"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Employee 5",
+      "tags": [
+        "3D Modeling",
+        "Graphic Design",
+        "Photography"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Employee 6",
+      "tags": [
+        "Illustration",
+        "UI/UX",
+        "3D Modeling"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Employee 7",
+      "tags": [
+        "Graphic Design",
+        "Motion Graphics",
+        "UI/UX"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Employee 8",
+      "tags": [
+        "Photography",
+        "Illustration",
+        "3D Modeling"
+      ],
+      "flag": false
+    }
+  ]
+  

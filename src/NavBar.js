@@ -17,6 +17,8 @@ function Navbar() {
           <li><Link to="/discover">Discover</Link></li>
           <li><Link to="/profile">For You</Link></li>
           <li><Link to="/profile">Profile</Link></li>
+          <li><Link to="/Hiring">Hiring</Link></li>
+          <li><Link to="/joblist">Job List</Link></li>
         </ul>
       </div>
     </nav>

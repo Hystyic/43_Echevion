@@ -1,4 +1,6 @@
+
 import React, { useState } from 'react';
+import './discover.css';
 
 function Discover() {
   const [hoveredIndex, setHoveredIndex] = useState(-1);

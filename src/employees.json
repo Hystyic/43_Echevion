@@ -1,6 +1,6 @@
 [
     {
-      "name": "Company 1",
+      "name": "Erricson",
       "tags": [
         "Graphic Design",
         "UI/UX",
@@ -9,7 +9,7 @@
       "flag": false
     },
     {
-      "name": "Company 2",
+      "name": "Apple",
       "tags": [
         "UI/UX",
         "3D Modeling",
@@ -18,7 +18,7 @@
       "flag": false
     },
     {
-      "name": "Company 3",
+      "name": "Google",
       "tags": [
         "Motion Graphics",
         "Graphic Design",
@@ -27,7 +27,7 @@
       "flag": true
     },
     {
-      "name": "Company 4",
+      "name": "Amazon",
       "tags": [
         "Photography",
         "Illustration",
@@ -36,7 +36,7 @@
       "flag": false
     },
     {
-      "name": "Company 5",
+      "name": "Meta",
       "tags": [
         "3D Modeling",
         "Graphic Design",
@@ -45,7 +45,7 @@
       "flag": false
     },
     {
-      "name": "Company 6",
+      "name": "Microsoft",
       "tags": [
         "Illustration",
         "UI/UX",
@@ -54,7 +54,7 @@
       "flag": false
     },
     {
-      "name": "Company 7",
+      "name": "PESU",
       "tags": [
         "Graphic Design",
         "Motion Graphics",
@@ -63,7 +63,7 @@
       "flag": false
     },
     {
-      "name": "Company 8",
+      "name": "Flipkart",
       "tags": [
         "Photography",
         "Illustration",

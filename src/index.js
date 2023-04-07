@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import catto from './cattt.png';
 import SearchBar from './SearchBar';
-import ImageGrid from './ImageGrid';
+import Discover from './discover';
 
 function Navbar() {
   return (

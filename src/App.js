@@ -1,17 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ImageGrid from './ImageGrid.js';
-
-
+import { Route, Routes } from 'react-router-dom';
+import './index.css';
+import Navbar from './NavBar';
+import FrontPage from './FrontPage';
+import Discover from './discover';
+import Profile from './profile';
 
 function App() {
   return (
-
     <div className="App">
-      <ImageGrid />
+      <Navbar />
+      <Routes>
+        <Route exact path="/FrontPage" element={<FrontPage />} />
+        <Route path="/discover" element={<Discover />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
     </div>
-
   );
 }
 

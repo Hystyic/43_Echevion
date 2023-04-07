@@ -9,6 +9,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.masonry-grid {
+  display: flex;
+ /* gutter size offset */
+}
+
 button {
   border: none;
   background-color: transparent;
@@ -47,6 +52,9 @@ button {
   grid-template-rows: repeat(10, 1fr);
   gap: 16px;
   margin: 16px;
+}
+.jagged {
+  transform: rotate(-2deg);
 }
 
 .image-grid img {

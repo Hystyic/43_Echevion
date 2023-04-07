@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './joblist.css';
 
 // mock data for job listings
 const jobListings = [
@@ -88,14 +89,13 @@ const JobListPage = ({ userSkills }) => {
       <JobList jobs={jobsForYou} />
       {otherJobs.length > 0 && (
         <>
-      <hr />
-      <h2>All Jobs</h2>
-      <JobList jobs={otherJobs} />
-    </>
-  )}
-</div>
-);
+          <hr />
+          <h2>All Jobs</h2>
+          <JobList jobs={otherJobs} />
+        </>
+      )}
+    </div>
+  );
 };
 
 export default JobListPage;
-

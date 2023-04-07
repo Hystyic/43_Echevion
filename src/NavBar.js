@@ -1,24 +1,26 @@
 import React from 'react';
-import SearchBar from './SearchBar';
+import { Link } from 'react-router-dom';
 import catto from './cattt.png';
+import SearchBar from './SearchBar';
 
-function NavBar() {
+function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={catto} alt="Catto" />
+        <button ><a href='http://localhost:3000/'><img src={catto} alt=''/></a></button>
+      </div>
+      <div className="navbar-search">
+        <SearchBar />
       </div>
       <div className="navbar-links">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Following</a></li>
-          <li><a href="#">Profile</a></li>
+          <li><Link to="/discover">Discover</Link></li>
+          <li><Link to="/profile">For You</Link></li>
+          <li><Link to="/profile">Profile</Link></li>
         </ul>
-        <SearchBar />
       </div>
     </nav>
   );
 }
 
-export default NavBar;
+export default Navbar;
